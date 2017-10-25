@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b15c45-91a9-4093-9394-782efac0a32c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,8 +31,12 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding />
+              <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <marker date="1508961251474" expanded="true" signature="0:622" ph="{&quot;name&quot;: &quot;vigilant-octo-tribble&quot;...}" />
+                <marker date="1508961251474" expanded="true" signature="96:240" ph="{&quot;husky&quot;: &quot;^0.14.3&quot;...}" />
+                <marker date="1508961251474" expanded="true" signature="617:620" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -125,6 +129,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -135,6 +149,7 @@
       <list>
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -230,12 +245,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508960557256</updated>
       <workItem from="1508960558503" duration="606000" />
-      <workItem from="1508961189850" duration="50000" />
+      <workItem from="1508961189850" duration="1197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="656000" />
+    <option name="totallyTimeSpent" value="1803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1370" height="739" extended-state="6" />
@@ -243,7 +258,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -283,7 +298,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1508961251474" expanded="true" signature="0:622" ph="{&quot;name&quot;: &quot;vigilant-octo-tribble&quot;...}" />
+            <marker date="1508961251474" expanded="true" signature="96:240" ph="{&quot;husky&quot;: &quot;^0.14.3&quot;...}" />
+            <marker date="1508961251474" expanded="true" signature="617:620" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,8 +417,12 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <marker date="1508961251474" expanded="true" signature="0:622" ph="{&quot;name&quot;: &quot;vigilant-octo-tribble&quot;...}" />
+            <marker date="1508961251474" expanded="true" signature="96:240" ph="{&quot;husky&quot;: &quot;^0.14.3&quot;...}" />
+            <marker date="1508961251474" expanded="true" signature="617:620" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -547,6 +570,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
