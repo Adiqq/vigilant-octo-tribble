@@ -8,6 +8,7 @@
     "prettier": "^1.7.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
     "react-scripts": "1.0.14"
   },
   "scripts": {
@@ -18,9 +19,9 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-       "src/**/*.{js,jsx,json,css}": [
-       "prettier --single-quote --write",
-       "git add"
-     ]
-   }
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  }
 }
