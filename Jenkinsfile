@@ -10,7 +10,7 @@ pipeline {
       steps {
         sh '''docker stop vigilant-octo-tribble || true
 docker rm vigilant-octo-tribble || true
-docker run --name=vigilant-octo-tribble --restart=always \\
+docker run  --network=final --name=vigilant-octo-tribble --restart=always \\
 -d -p 30000:80 vigilant-octo-tribble
 '''
       }
