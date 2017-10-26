@@ -5,8 +5,8 @@ RUN npm config set registry http://adwa.westeurope.cloudapp.azure.com:30010/repo
 RUN yarn config set registry http://adwa.westeurope.cloudapp.azure.com:30010/repository/npm/
 WORKDIR /app
 COPY . .
-RUN yarn install
-RUN yarn build
+RUN npm install
+RUN npm run build
 
 FROM nginx
 WORKDIR /usr/share/nginx/html
