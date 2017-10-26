@@ -8,8 +8,8 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        sh '''docker stop vigilant-octo-tribble
-docker rm vigilant-octo-tribble
+        sh '''docker stop vigilant-octo-tribble || true
+docker rm vigilant-octo-tribble || true
 docker run --name=vigilant-octo-tribble --restart=always \\
 -d -p 30000:80 vigilant-octo-tribble
 '''
